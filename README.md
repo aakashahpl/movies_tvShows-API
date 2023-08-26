@@ -132,4 +132,4 @@ Delete a TV show by providing the show ID.
 
 ---
 
-Please note that these are general guidelines for using the provided API routes. Make sure to provide the appropriate data in the request bodies and handle the responses accordingly.
+
