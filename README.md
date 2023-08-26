@@ -3,7 +3,7 @@
 This documentation outlines the API routes for managing movies and TV shows using the Express framework and MongoDB.
 # Installation
 - Run `npm i` to install the necessary modules.
-- Enter MongoDB Atlas URL in database/db.js to connect the your database to the server.
+- Enter MongoDB Atlas URL in database/db.js to connect your database to the server.
 - Run `node index.js` to start the server.
 ## Table of Contents
 
