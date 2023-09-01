@@ -1,7 +1,4 @@
-# Tech Stack
-###  *Nodejs,Express*
-###  *Database - MongoDB*
-###  *ORM - Mongoose*
+
 # Installation
 - Run `npm i` to install the necessary modules.
 - Enter MongoDB Atlas URL in database/db.js to connect the your database to the server.
