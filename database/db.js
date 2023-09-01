@@ -1,7 +1,11 @@
 import mongoose from "mongoose";
 const Connection = ()=>{
-    const MONGODB_URI = "<URL>";
-
+    const MONGODB_URI = process.env.MONGODB_URI;
+    
+    if (process.env.MONGODB_URI === undefined) {
+        console.log("Please set the environment variable MONGO_URI");
+        process.exit(1);
+    }
     mongoose.connect(MONGODB_URI, { useNewUrlParser: true});
 
     mongoose.connection.on('connected',() =>{
