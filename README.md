@@ -1,7 +1,7 @@
 
 # Installation
 - Run `npm i` to install the necessary modules.
-- Enter MongoDB Atlas URL in database/db.js to connect your database to the server.
+- ADD MongoDB Atlas URL to your .env file to connect your database to the server.
 - Run `node index.js` to start the server.
 # Movie and TV Show API Documentation
 
