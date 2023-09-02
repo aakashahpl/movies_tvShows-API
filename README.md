@@ -5,8 +5,6 @@
 - Run `node index.js` to start the server.
 # Movie and TV Show API Documentation
 
-This documentation outlines the API routes for managing movies and TV shows using the Express framework and MongoDB.
-
 ## Table of Contents
 
 - [Movie Routes](#movie-routes)
